@@ -55,16 +55,16 @@ The main application is located in the `healthcare-mongodb-app` directory.
 All detailed documentation is available in the `healthcare-mongodb-app` directory:
 
 - **[README.md](./healthcare-mongodb-app/README.md)** - Complete setup guide, API documentation, and usage instructions
-- **[START_HERE.md](./healthcare-mongodb-app/START_HERE.md)** - Quick start guide for getting up and running
+- **[START_HERE.md](./healthcare-mongodb-app/START_HERE.md)** - Migration status and quick start for the FastAPI application
 - **[DEPLOYMENT.md](./healthcare-mongodb-app/DEPLOYMENT.md)** - Production deployment instructions
 - **[MIGRATION.md](./healthcare-mongodb-app/MIGRATION.md)** - Notes on Express.js to FastAPI migration
 
 ## 🛠️ Tech Stack
 
-- **FastAPI 0.109+** - Modern async Python web framework
-- **Motor 3.3+** - Async MongoDB driver
-- **Pydantic 2.5+** - Data validation and settings management
-- **Uvicorn** - Lightning-fast ASGI server
+- **FastAPI 0.109.0** - Modern async Python web framework
+- **Motor 3.3.2** - Async MongoDB driver
+- **Pydantic 2.5.3** - Data validation and settings management
+- **Uvicorn 0.27.0** - Lightning-fast ASGI server
 - **MongoDB 6.0+** - NoSQL database with TTL indexes
 - **Python 3.11+** - Required runtime
 
